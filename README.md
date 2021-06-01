@@ -15,7 +15,7 @@ This code is a heavy modification of the [Generative Modeling through Stochastic
 See the [requirements](https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/requirements.txt). 
 Change the settings and folders in https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/experiments.sh and run parts of the script to run the CIFAR-10, LSUN-Church, and FFHQ experiments.
 
-The SDE solver can be found [here](https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/sampling.py#L172).
+The SDE solver can be found [here](https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/sampling.py#L172) and the loop [here](https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/sampling.py#L574).
 
 ## For general usage 
 
