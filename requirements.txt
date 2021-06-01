@@ -1,0 +1,12 @@
+numpy
+ml-collections
+tensorflow-gan
+tensorflow_io
+tensorflow_datasets
+tensorflow
+tensorflow-addons
+tensorboard
+absl-py
+flax==0.3.0
+jax==0.2.8
+jaxlib==0.1.59
