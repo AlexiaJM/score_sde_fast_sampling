@@ -1,6 +1,6 @@
 # Gotta Go Fast When Generating Data with Score-Based Models
 
-This repo contains the official implementation for the paper [Gotta Go Fast When Generating Data with Score-Based Models](https://arxiv.org/abs/2105.14080), which shows how to generate data as fast as possible with score-based models using a well-designed SDE solver. See the [blog post](https://ajolicoeur.wordpress.com/gotta-go-fast-%f0%9f%8f%83%f0%9f%8f%bb%f0%9f%92%a8%f0%9f%92%a8-when-generating-data-with-score-based-models/) for more details.
+This repo contains the official implementation for the paper [Gotta Go Fast When Generating Data with Score-Based Models](https://arxiv.org/abs/2105.14080), which shows how to generate data as fast as possible with score-based models using a well-designed SDE solver. See the [blog post](https://ajolicoeur.wordpress.com/gotta-go-fast-with-score-based-models/) for more details.
 
 <p align="center">
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/000/615/826/8ba.gif">
