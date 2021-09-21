@@ -10,6 +10,9 @@ This repo contains the official implementation for the paper [Gotta Go Fast When
 
 This code is a heavy modification of the [Generative Modeling through Stochastic Differential Equations repository](https://github.com/yang-song/score_sde).
 
+## 2021-09-21: Using the GottaGoFast sampler in Torch
+If you want the PyTorch version, please use https://github.com/yang-song/score_sde_pytorch/blob/main/sde_lib.py along with my modified version of https://github.com/yang-song/score_sde_pytorch/blob/main/sampling.py which is here: https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/sde_sampling_torch.py.
+
 ## To run the experiments in the paper
 
 See the [requirements](https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/requirements.txt). 
