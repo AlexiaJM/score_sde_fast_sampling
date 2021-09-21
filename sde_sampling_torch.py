@@ -1,5 +1,5 @@
-## Modified from https://github.com/yang-song/score_sde_pytorch/blob/main/sde_lib.py
-## I added support for the adaptive step-size algorithm from https://github.com/AlexiaJM/score_sde_fast_sampling/blob/main/sampling.py
+## Modified from https://github.com/yang-song/score_sde_pytorch/blob/main/sampling.py
+## Will only work if https://github.com/yang-song/score_sde_pytorch/blob/main/sde_lib.py is in the same folder
 ## I removed all the stuff we do not need
 
 #### Defaults
