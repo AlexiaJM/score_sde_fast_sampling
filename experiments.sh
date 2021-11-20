@@ -53,7 +53,7 @@ cp assets/stats/ffhq_256_stats.npz /scratch/jolicoea/fid_stats/ffhq_256_stats.np
 ###### 32 x 32 (Table 1)
 
 ## VP-deep
-python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous_deep' --config.sampling.predictor="reverse_diffusion" --config.sampling.corrector="langevin" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
+python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous_deep' --config.sampling.predictor="reverse_diffusion" --config.sampling.corrector="langevin" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres --config.sampling.snr=0.01
 
 python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous_deep' --config.sampling.predictor="euler_maruyama" --config.sampling.corrector="none" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
 python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous_deep' --config.sampling.predictor="ddim" --config.sampling.corrector="none" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
@@ -77,7 +77,7 @@ python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode
 python main.py --config 'configs/ddpmpp/cifar10_deep_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous_deep' --config.sampling.method="ode" --config.sampling.corrector="none" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
 
 ## VP
-python main.py --config 'configs/ddpmpp/cifar10_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous' --config.sampling.predictor="reverse_diffusion" --config.sampling.corrector="langevin" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
+python main.py --config 'configs/ddpmpp/cifar10_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous' --config.sampling.predictor="reverse_diffusion" --config.sampling.corrector="langevin" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres  --config.sampling.snr=0.01
 
 python main.py --config 'configs/ddpmpp/cifar10_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous' --config.sampling.predictor="euler_maruyama" --config.sampling.corrector="none" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
 python main.py --config 'configs/ddpmpp/cifar10_continuous_vp_c8.py' --mode 'eval' --workdir 'vp_cifar10_ddpmpp_continuous' --config.sampling.predictor="ddim" --config.sampling.corrector="none" --config.eval.num_samples=$total_lowres --config.eval.batch_size=$bs_lowres
